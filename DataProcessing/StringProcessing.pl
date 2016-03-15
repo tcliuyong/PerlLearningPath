@@ -1,0 +1,20 @@
+my $name = "tcliuyong";
+my $tmp = chop $name ;
+print  $tmp;
+print  $name ;
+print "\n";
+my $chars = chr(79).chr(118);
+print $chars;
+print "\n";
+my $a = index $name, "liu";
+print $a ;
+print length($name);
+my $str = "hello world";
+my $substr =  substr $str, 5;
+print $substr;
+print "\n";
+my @stringbuf = qw(test sdf sdf sdfss);
+my $res = join '-', @stringbuf;
+print $res;
+my @rev = split '-',  $res;
+print @rev
