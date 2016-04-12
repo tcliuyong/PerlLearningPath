@@ -1,3 +1,5 @@
+use strict;
+use warnings;
 my $name = "tcliuyong";
 my $tmp = chop $name ;
 print  $tmp;
