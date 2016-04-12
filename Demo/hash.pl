@@ -1,3 +1,5 @@
+use warnings;
+use strict;
 my %people = (
 	"alice" ,100,
 	"bid" ,21

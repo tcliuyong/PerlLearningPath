@@ -1,3 +1,5 @@
+use strict;
+use warnings FATAL => 'all';
 sub random_die_roll{
 	return 1 + int(rand(6));
 }

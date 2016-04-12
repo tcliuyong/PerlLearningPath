@@ -1,3 +1,5 @@
+use warnings;
+use strict;
 my @words = ("asdfs","hose cat", "catsdfs","cat","is sdfsdf");
 foreach my $word (@words){
 	if($word =~ /^cat/){
